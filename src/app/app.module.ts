@@ -9,6 +9,8 @@ import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { CdkTableModule } from '@angular/cdk/table';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     CdkTableModule,
     FormsModule, 
     ReactiveFormsModule,
-    ReactiveFormsModule.withConfig({warnOnNgModelWithFormControl: 'never'})
+    ReactiveFormsModule.withConfig({warnOnNgModelWithFormControl: 'never'}),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     EnvServiceProvider, 
