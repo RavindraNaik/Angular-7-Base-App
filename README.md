@@ -2,7 +2,6 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
 
-Download Zip and navigate to the folder
 
 ## Features
 1) Angular 5 Application
@@ -12,6 +11,8 @@ Download Zip and navigate to the folder
 5) Share Data Service - To share data between app components.
 6) API Service - To Make Restful API calls.
 7) Changeable API Base URL after building app (Change is 'src/env.js').
+
+### Download Zip and navigate to the folder
 
 ## Install Dependencies
 
