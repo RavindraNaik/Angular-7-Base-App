@@ -4,13 +4,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 ## Features
-1) Angular 5 Application
-2) Routing
-3) Scss
-4) Angular Material
-5) Share Data Service - To share data between app components.
-6) API Service - To Make Restful API calls.
-7) Changeable API Base URL after building app (Change is 'src/env.js').
+1) Angular 7 Application
+2) Service Worker
+3) Routing
+4) Scss
+5) Angular Material
+6) Share Data Service - To share data between app components.
+7) API Service - To Make Restful API calls.
+8) Changeable API Base URL after building app (Change is 'src/env.js').
 
 ### Download Zip and navigate to the folder
 
